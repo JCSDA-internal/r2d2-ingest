@@ -1,0 +1,18 @@
+start: 2021073118
+end: 2021090118
+source_steps:
+    - PT3H
+    - PT4H
+    - PT5H
+    - PT6H
+    - PT7H
+    - PT8H
+    - PT9H
+window_length: PT6H
+# Change source_dir to your database path
+source_dir: /discover/nobackup/jbarre/jedidev/geos-cf_aug21
+file_type: bkg
+type: fc
+model: geos_cf
+experiment: oper
+resolution: c90

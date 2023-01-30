@@ -1,0 +1,10 @@
+- fetch:
+    model: gfs
+    experiment: test
+    type: an
+    date: 2018-04-14T21:00:00:00Z
+    resolution: c12
+    file_type: fv_core.res
+    tile: 1
+    file_format: netcdf
+    target_file: /Volumes/BACKUP_UCAR/R2D2_DB/target/

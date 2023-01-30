@@ -1,0 +1,68 @@
+start: 2020121500
+end: 2021011300
+step: PT6H
+provider: ncdiag
+type: obs
+time_window: PT6H
+# Replace source_path with the full path to the R2D2_SHARED database on the selected HPC platform.
+source_path: /work/noaa/da/cmartin/noscrub/UFO_eval/ROTDIRS/DARTH/allob_fh006_nonsstfov
+obs_types:
+    - aircraft
+    - aircraft_q
+    - aircraft_tsen
+    - aircraft_uv
+    - amsua_metop-a
+    - amsua_metop-b
+    - amsua_metop-c
+    - amsua_n15
+    - amsua_n18
+    - amsua_n19
+    - atms_n20
+    - atms_npp
+    - avhrr_metop-a
+    - avhrr_n18
+    - cris-fsr_n20
+    - cris-fsr_npp
+    - gnssro
+    - gome_metop-a
+    - gome_metop-b
+    - hirs4_metop-a
+    - hirs4_n19
+    - iasi_metop-a
+    - iasi_metop-b
+    - mhs_metop-a
+    - mhs_metop-b
+    - mhs_metop-c
+    - mhs_n19
+    - omi_aura
+    - ompsnp_npp
+    - ompstc8_npp
+    - rass_tv
+    - satwind
+    - sbuv2_n19
+    - scatwind
+    - seviri_m08
+    - seviri_m11
+    - sfc
+    - sfc_ps
+    - sfc_q
+    - sfcship
+    - sfcship_ps
+    - sfcship_q
+    - sfcship_tsen
+    - sfcship_tv
+    - sfcship_uv
+    - sfc_tsen
+    - sfc_tv
+    - sfc_uv
+    - sondes
+    - sondes_ps
+    - sondes_q
+    - sondes_tsen
+    - sondes_tvirt
+    - sondes_tv
+    - sondes_uv
+    - ssmis_f17
+    - ssmis_f18
+    - sst
+    - vadwind

@@ -1,0 +1,7 @@
+window_start: 2020-12-15T15:00:00Z
+provider: planetiq
+type: obs
+window_length: PT6H
+# Replace source_path with the full path to the data files on the selected platform.
+source_path: /work/noaa/da/eric/r2d2_input_data
+obs_type: gnssro

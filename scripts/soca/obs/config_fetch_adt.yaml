@@ -1,0 +1,12 @@
+start: 20201101
+end: 20210131
+step: P1D
+target_dir: /work/noaa/da/eric/r2d2_input_data/soca
+type: obs
+provider: jcsda_soca
+obs_types:
+    - adt_c2
+    - adt_j3
+    - adt_sa
+    - adt_3a
+    - adt_3b

@@ -1,0 +1,16 @@
+dates:
+    - 2020-12-14T15:00:00Z
+    - 2020-12-14T21:00:00Z
+    - 2020-12-15T09:00:00Z
+    - 2020-12-15T15:00:00Z
+    - 2020-12-15T21:00:00Z
+source_steps:
+    - PT6H
+    - PT7H
+    - PT8H
+    - PT9H
+    - PT10H
+    - PT11H
+    - PT12H
+source_dir: /work/noaa/da/eric/r2d2_input_data
+file_type: bkg

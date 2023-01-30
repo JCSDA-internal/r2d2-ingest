@@ -1,0 +1,47 @@
+window_start: 2020-12-14T21:00:00Z
+# Replace source_dir with the full path to the g16 output plots.
+source_dir: /Users/eric2/IMAGES/g16_images_8km_res
+window_length: PT6H
+type: media
+experiment: a022
+file_format: png
+obs_type: abi_g16_bt
+plot_type: map
+variables:
+    - brightness_temperature_7.bt
+    - brightness_temperature_7.hofx
+    - brightness_temperature_7.omb
+    - brightness_temperature_8.bt
+    - brightness_temperature_8.hofx
+    - brightness_temperature_9.omb
+    - brightness_temperature_9.bt
+    - brightness_temperature_9.hofx
+    - brightness_temperature_9.omb
+    - brightness_temperature_10.bt
+    - brightness_temperature_10.hofx
+    - brightness_temperature_10.omb
+    - brightness_temperature_11.bt
+    - brightness_temperature_11.hofx
+    - brightness_temperature_11.omb
+    - brightness_temperature_12.bt
+    - brightness_temperature_12.hofx
+    - brightness_temperature_12.omb
+    - brightness_temperature_13.bt
+    - brightness_temperature_13.hofx
+    - brightness_temperature_13.omb
+    - brightness_temperature_14.bt
+    - brightness_temperature_14.hofx
+    - brightness_temperature_14.omb
+    - brightness_temperature_15.bt
+    - brightness_temperature_15.hofx
+    - brightness_temperature_15.omb
+    - brightness_temperature_16.bt
+    - brightness_temperature_16.hofx
+    - brightness_temperature_16.omb
+    - elevation_angle
+    - scan_angle
+    - sensor_azimuth_angle
+    - sensor_view_angle
+    - sensor_zenith_angle
+    - solar_azimuth_angle
+    - solar_zenith_angle

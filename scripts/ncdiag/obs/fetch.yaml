@@ -1,0 +1,9 @@
+- fetch:
+    provider: ncdiag
+    type: obs
+    window_start: 2019-07-01T:00:00:00Z
+    window_length: PT06H
+    obs_type: aircraft
+    target_file: s3://eric-r2d2/$(provider)/$(type)/$(window_length)/2019-07-01/$(provider).$(type).$(time_window).$(window_length).$(window_start).nc4
+    database: archive
+    ignore_missing: yes

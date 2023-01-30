@@ -1,0 +1,39 @@
+window_start: 2018-04-15T00:00:00Z
+source_file_date: 2018041500
+provider: ncdiag
+type: obs
+window_length: PT6H
+# Replace source_path with the full path to the data files on the selected platform.
+source_path: /Users/eric2/obs
+obs_types:
+    - aircraft
+    - airs_aqua
+    - amsua_metop-a
+    - amsua_metop-b
+    - amsua_n15
+    - amsua_n18
+    - amsua_n19
+    - aod
+    - atms_npp
+    - cris-fsr_npp
+    - geos_aod
+    - gmi_gpm
+    - gnssro
+    - hirs4_metop-a
+    - iasi_metop-a
+    - iasi_metop-b
+    - mhs_metop-a
+    - mhs_metop-b
+    - mhs_n18
+    - mhs_n19
+    - satwind
+    - sbuv2_n19
+    - satwind
+    - seviri_m08
+    - sfc
+    - smap
+    - sndrd1_g15
+    - sndrd1_g15
+    - sndrd1_g15
+    - sndrd1_g15
+    - sondes

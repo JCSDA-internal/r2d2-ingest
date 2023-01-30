@@ -1,0 +1,10 @@
+start: 2021073118
+end: 2021080200
+# start: 2022011000
+# end: 2022011018
+provider: ncar_rda
+type: obs
+window_length: PT6H
+# Replace source_path with the full path to the data files on the selected platform.
+source_path: /work/noaa/da/eric/r2d2_input_data
+obs_type: aircraft

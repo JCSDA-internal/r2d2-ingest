@@ -1,0 +1,9 @@
+start: 2020121418
+end: 2020121600
+step: PT6H
+# Replace source_dir with the full path to the g16 output data.
+source_dir: /work/noaa/da/eric/r2d2_input_data
+type: obs
+provider: noaa
+obs_types:
+    - abi_g16_bt

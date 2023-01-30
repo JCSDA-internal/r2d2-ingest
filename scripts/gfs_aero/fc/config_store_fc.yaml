@@ -1,0 +1,16 @@
+start: 2021073118
+end: 2021083118
+step: PT6H
+window_length: PT6H
+# Change source_dir to your database path
+source_dir: /work/noaa/da/maryamao/COMPO/gfs_aerosol
+type: fc
+model: gfs_aero
+experiment: oper
+resolution: c96
+file_types:
+    - fv_core.res
+    - fv_srf_wnd.res
+    - fv_tracer.res
+    - phy_data
+    - sfc_data

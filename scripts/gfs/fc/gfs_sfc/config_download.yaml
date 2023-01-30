@@ -1,0 +1,12 @@
+# Change download_dir to a local path
+download_dir: /work/noaa/da/eric/r2d2_input_data
+start: 2021073118
+end: 2021080118
+step: PT6H
+gfs_file_types:
+    - sfcanl_data.tile1.nc
+    - sfcanl_data.tile2.nc
+    - sfcanl_data.tile3.nc
+    - sfcanl_data.tile4.nc
+    - sfcanl_data.tile5.nc
+    - sfcanl_data.tile6.nc

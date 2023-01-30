@@ -1,0 +1,23 @@
+# The start date for the date loop
+start_date: 2021-07-31T18:00:00Z
+# The end date for the date loop
+end_date: 2021-08-31T18:00:00Z
+# The step for date looping
+step_date: PT6H
+# The step for the GFS backgrounds
+step_bkg: PT3H
+# The human string for the input resolution
+start_res: c768
+# The human string for the output resolution
+end_res: c384
+# The integer value for the input resolution
+start_np: 769
+# The integer value for the output resolution
+end_np: 385
+# The path containing the input files to convert (For example, /work/noaa/da/jedipara/r2d2_archive_orion/gfs/fc/oper)
+input_path: <input_path>
+# The path to contain the output files to convert (For example, /work/noaa/da/eric/r2d2_experiments_orion/gfs/fc/oper)
+output_path: <output_path>
+# The path to contain the dynamically generated configuration YAML files used by the fv3jedi_convertstate.x executable
+# (For example, /work/noaa/da/eric/yaml_files)
+yaml_path: <yaml_path>

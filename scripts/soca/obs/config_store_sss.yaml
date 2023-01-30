@@ -1,0 +1,8 @@
+start: 20201201
+end: 20210131
+step: P1D
+source_dir: /work/noaa/da/eric/r2d2_input_data/soca
+type: obs
+provider: jcsda_soca
+obs_types:
+    - sss_smap
