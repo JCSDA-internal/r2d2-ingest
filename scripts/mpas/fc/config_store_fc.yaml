@@ -1,0 +1,8 @@
+start: 2020121418
+end: 2020121518
+step: PT6H
+source_dir: /work/noaa/da/eric/r2d2_input_data/mpas
+type: fc
+model: mpas
+experiment: oper
+resolution: 120km

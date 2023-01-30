@@ -1,0 +1,21 @@
+start: 2020121500
+end: 2020121500
+step: P1D
+source_dir: /work/noaa/da/eric/r2d2_input_data/rrfs
+type: fc
+model: rrfs
+experiment: oper
+resolution: 13km
+file_types:
+  - coupler.res
+  - fv_core.res.nc
+  - fv_core.res.tile1.nc
+  - fv_srf_wnd.res.tile1.nc
+  - fv_tracer.res.tile1.nc
+  - gfs_bndy.tile7.000.nc
+  - gfs_bndy.tile7.001.nc
+  - gfs_bndy.tile7.002.nc
+  - gfs_bndy.tile7.003.nc
+  - gfs_ctrl.nc
+  - phy_data.nc
+  - sfc_data.nc

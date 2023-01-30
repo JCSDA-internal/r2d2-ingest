@@ -1,0 +1,29 @@
+start: 2020121418
+end: 2021011418
+step: PT6H
+obs_types:
+    - amsua_metop-a
+    - amsua_metop-b
+    - amsua_metop-c
+    - amsua_n15
+    - amsua_n18
+    - amsua_n19
+    - atms_n20
+    - atms_npp
+    - avhrr_metop-a
+    - avhrr_n18
+    - cris-fsr_n20
+    - cris-fsr_npp
+    - iasi_metop-a
+    - iasi_metop-b
+    - mhs_metop-a
+    - mhs_metop-b
+    - mhs_metop-c
+    - mhs_n19
+    - seviri_m08
+    - seviri_m11
+    - ssmis_f17
+    - ssmis_f18
+file_types:
+    - satbias
+    - tlapse

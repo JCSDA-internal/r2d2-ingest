@@ -1,0 +1,13 @@
+start: 2021073118
+end: 2021080118
+step: PT3H
+window_length: PT6H
+# Change source_dir to your database path
+source_dir: /work/noaa/da/eric/r2d2_input_data
+type: fc
+model: gfs_metadata
+experiment: oper
+resolution: c768
+file_types:
+    - coupler.res
+    - fv_core.res.nc

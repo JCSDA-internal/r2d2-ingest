@@ -1,0 +1,12 @@
+start: 2020121421
+end: 2020121421
+step: PT6H
+# Change source_dir to your database path
+source_dir: /Users/eric2/PROJECTS/JEDI/jedi/fv3-bundle/fv3-jedi-data/testinput_tier_1/inputs/gfs_c12
+type: an_ens
+model: gfs_metadata
+experiment: oper
+resolution: c12
+members: 10
+file_types:
+    - coupler.res

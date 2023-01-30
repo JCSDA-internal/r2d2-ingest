@@ -1,0 +1,10 @@
+- fetch:
+      model: gfs
+      experiment: oper
+      type: bc
+      obs_type: amsua_metop-a
+      date: 2020-09-30T:18:00:00Z
+      file_type: satbias
+      target_file: s3://eric-r2d2/$(provider)/$(type)/$(experiment)/2020-09-30/$(provider).$(experiment).$(type).$(obs_type).$(date).$(file_type)
+      database: archive
+      ignore_missing: yes

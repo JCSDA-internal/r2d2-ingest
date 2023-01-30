@@ -1,0 +1,9 @@
+start: 20201001
+end: 20201231
+step: P1D
+source_dir: /work/noaa/da/eric/r2d2_input_data/soca
+type: obs
+provider: jcsda_soca
+obs_types:
+    - icec_ssmi
+    - icec_ssmis_285_286

@@ -1,0 +1,18 @@
+start: 2021073118
+end: 2021083118
+step: PT6H
+obs_types:
+    - amsua_aqua
+    - amsua_n15
+    - amsua_n18
+    - amsua_n19
+    - amsua_metop-a
+    - amsua_metop-b
+    - amsua_metop-c
+    - atms_n20
+    - atms_npp
+    - cris-fsr_npp
+    - cris-fsr_n20
+    - iasi_metop-a
+    - iasi_metop-b
+    - iasi_metop-c

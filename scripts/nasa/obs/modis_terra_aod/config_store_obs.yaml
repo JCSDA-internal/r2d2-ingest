@@ -1,0 +1,8 @@
+start: 2021-08-01T00:00:00Z
+end: 2021-09-01T00:00:00Z
+provider: nasa
+type: obs
+window_length: PT6H
+# Replace source_path with the full path to the data files on the selected platform.
+source_path: /work/noaa/da/barre/get_obs/ioda_modis_aod/
+obs_type: modis_terra_aod

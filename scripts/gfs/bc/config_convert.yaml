@@ -1,0 +1,23 @@
+# Change input_dir to a local path
+input_dir: /work/noaa/da/eric/r2d2_input_data/gfs/bc
+start: 2021073118
+end: 2021083118
+step: PT6H
+satbias converter:
+  executable: /work/noaa/da/eric/jedi/ioda-bundle/build/bin/satbias2ioda.x
+  template: /work/noaa/da/eric/jedi/fv3-bundle/r2d2/scripts/gfs/bc/satbias2ioda_template.yaml
+obs_types:
+    - amsua_aqua
+    - amsua_n15
+    - amsua_n18
+    - amsua_n19
+    - amsua_metop-a
+    - amsua_metop-b
+    - amsua_metop-c
+    - atms_n20
+    - atms_npp
+    - cris-fsr_npp
+    - cris-fsr_n20
+    - iasi_metop-a
+    - iasi_metop-b
+    - iasi_metop-c

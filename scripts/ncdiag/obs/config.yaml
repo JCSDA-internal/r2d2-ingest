@@ -1,0 +1,43 @@
+start: 2019070100
+end: 2019080100
+step: PT6H
+obs_types:
+    - aircraft
+    - airs-aqua
+    - amsua-aqua
+    - amsua-metopb
+    - amsua-n15
+    - amsua-n18
+    - amsua-n19
+    - atms-n20
+    - avhrr-n18
+    - crisfsr-n20
+    - crisfsr-npp
+    - gome-metopb
+    - gps-bend
+    - hirs4-metopb
+    - hirs4-n19
+    - iasi-metopb
+    - mhs-metopb
+    - mhs-metopb-n19
+    - omi-aura
+    - ompsnp-npp
+    - ompstc8-npp
+    - rass-tv
+    - satwind
+    - sbuv2-n19
+    - scatwind
+    - seviri-m08
+    - seviri-m11
+    - sfc
+    - ship
+    - sndrd1-g15
+    - sndrd2-g15
+    - sndrd3-g15
+    - sndrd4-g15
+    - sondes
+    - ssmis-f17
+    - ssmis-f18
+    - sst
+    - vadwind
+    - windprof

@@ -1,0 +1,8 @@
+start: 2021-08-01T00:00:00Z
+end: 2021-08-10T00:00:00Z
+provider: esa
+type: obs
+window_length: PT6H
+# Replace source_path with the full path to the data files on the selected platform.
+source_path: /work/noaa/da/barre/get_obs/ioda_tropomi_no2/
+obs_type: tropomi_s5p_no2

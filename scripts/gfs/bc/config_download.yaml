@@ -1,0 +1,8 @@
+# Change download_dir to a local path
+download_dir: /work/noaa/da/eric/r2d2_input_data/gfs/bc
+start: 2021073118
+end: 2021083118
+step: PT6H
+gfs_file_types:
+    - abias
+    - abias_pc

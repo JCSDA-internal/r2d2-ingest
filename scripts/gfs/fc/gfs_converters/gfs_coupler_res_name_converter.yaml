@@ -1,0 +1,13 @@
+# The start date for the date loop
+start_date: 2021-07-31T18:00:00Z
+# The end date for the date loop
+end_date: 2021-08-31T18:00:00Z
+# The step for date looping
+step_date: PT6H
+# The step for the GFS backgrounds
+step_bkg: PT3H
+# The human string for the resolution requiring coupler.res filename conversion
+resolution: c768
+# The path containing the input files for coupler.res filename conversion (For example,
+# /work/noaa/da/eric/r2d2_experiments_orion/gfs/fc/oper)
+source_path: <source_path>

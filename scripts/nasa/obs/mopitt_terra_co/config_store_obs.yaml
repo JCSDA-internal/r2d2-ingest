@@ -1,0 +1,8 @@
+start: 2021-08-01T00:00:00Z
+end: 2021-08-10T00:00:00Z
+provider: nasa
+type: obs
+window_length: PT6H
+# Replace source_path with the full path to the data files on the selected platform.
+source_path: /discover/nobackup/jbarre/jedidev/get_obs/ioda_mopitt_co/
+obs_type: mopitt_terra_co

@@ -1,0 +1,20 @@
+start: 2020121512
+end: 2020121612
+step: P1D
+source_dir: /work/noaa/da/eric/r2d2_input_data/mom6
+type: fc
+model: mom6
+nc_file_types:
+  - cice.res
+  - DATM_CFSR.cpl.r
+  - DATM_CFSR.datm.r
+  - iced
+  - MOM.res_1
+  - MOM.res_2
+  - MOM.res_3
+  - MOM.res
+nc_date_file_types:
+  - DATM_CFSR.cpl.r
+  - DATM_CFSR.datm.r
+  - iced
+restart_file_name: ice.restart_file

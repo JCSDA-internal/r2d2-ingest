@@ -1,0 +1,19 @@
+start: 2021080100
+end: 2021083118
+window_length: PT6H
+#
+offset: PT3H
+# Change source_dir to your database path
+source_dir: /work2/noaa/da/dheinzel/ensemble
+type: fc_ens
+model: gfs
+experiment: oper
+resolution: c384
+first_member: 1
+last_member: 80
+file_types:
+    - fv_core.res
+    - fv_srf_wnd.res
+    - fv_tracer.res
+    - sfc_data
+    - phy_data

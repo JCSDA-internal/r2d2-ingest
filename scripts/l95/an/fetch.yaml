@@ -1,0 +1,10 @@
+- fetch:
+    model: l95
+    type: an
+    experiment: test
+    resolution: 40
+    date: 2019-12-31T:18:00:00Z
+    file_format: netcdf
+    target_file: s3://eric-r2d2/$(model)/$(type)/$(experiment)/$(resolution)/2019-12-31/$(model).$(experiment).$(type).$(date).nc
+    database: archive
+    ignore_missing: yes
